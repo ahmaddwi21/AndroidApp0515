@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TryApp3</string>
+    <string name="welcome">Welcome</string>
+    <string name="hintbox1">Nama</string>
+    <string name="hintbox2">Email</string>
+    <string name="setting">Setting</string>
+    <string name="mic">Mic</string>
+    <string name="status">Status</string>
+</resources>
