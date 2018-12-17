@@ -52,5 +52,12 @@ public class MyCoreDatabase extends SQLiteOpenHelper {
         Toast.makeText(ctx,str.toString(),Toast.LENGTH_SHORT).show();
     }
 
+    public void deleteData(){
+        myDb = getWritableDatabase();
+
+        myDb.execSQL("delete from "+DB_TABLE+";");
+        Toast.makeText(ctx,"Data deleted Successfully",Toast.LENGTH_SHORT).show();
+    }
+
 }
 

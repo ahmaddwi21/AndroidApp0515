@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public void OnSave(View view) {
         MyData.insertData(name.getText().toString(), college.getText().toString());
     }
+
+    public void onDelete(View view) {
+        MyData.deleteData();
+    }
 }
